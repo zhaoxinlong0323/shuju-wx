@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/xingchen/list/hangye/hangye",
+    "pages/xingchen/list/tongyong/tongyong",
+    "pages/xingchen/list/caiwu/caiwu",
+    "pages/xingchen/page/caiwu/shouru/shouru",
+    "ec-canvas/ec-canvas"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/b_homesel.png",
+        "iconPath": "images/b_home.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/b_editsel.png",
+        "iconPath": "images/b_edit.png",
+        "pagePath": "pages/xingchen/list/tongyong/tongyong",
+        "text": "通用指标"
+      },
+      {
+        "selectedIconPath": "images/b_repsel.png",
+        "iconPath": "images/b_rep.png",
+        "pagePath": "pages/xingchen/list/hangye/hangye",
+        "text": "行业指标"
+      }
+    ]
+  }
+}

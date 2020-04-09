@@ -1,0 +1,7 @@
+
+{
+  "usingComponents": {
+    "ec-canvas": "../../../../../ec-canvas/ec-canvas"
+  },
+  "navigationBarTitleText": "收入分析"
+}

@@ -1,0 +1,5 @@
+<view class="listtype">
+    <navigator url="../../page/caiwu/shouru/shouru"   class="blue">
+      <text>收入</text>
+    </navigator>
+  </view>

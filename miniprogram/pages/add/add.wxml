@@ -1,0 +1,44 @@
+<!--miniprogram/pages/add/add.wxml-->
+<scroll-view scroll-y="true" class="addpage">
+  <view class="section">
+    <view class="weui-cells__title">选择类别</view>
+    <view class=".weui-cell">
+      <picker bindchange="onLeibieChange" value="{{leibie[lbindex]}}" range="{{leibie}}">
+        <view class="picker">
+          {{leibie[lbindex]}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="section">
+    <view class="weui-cells__title">名称</view>
+    <view class=".weui-cell">
+      <input class="weui-input" bindinput="onInputName" maxlength="20" placeholder="在此输入名称" />
+    </view>
+  </view>
+  <view class="section">
+    <view class="weui-cells__title">设定积分</view>
+    <view class=".weui-cell">
+      <input type="number" bindinput="onInputNum" placeholder="在此输入积分" />
+    </view>
+  </view>
+  <view class="section">
+    <view class="weui-cells__title">有效期结束日期</view>
+    <view class="weui-cell">
+      <picker mode="date" value="{{enddate}}" start="2018-12-01" end="2099-09-01" bindchange="onBindEndDateChange">
+        <view class="picker">
+           {{enddate}}
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view class="section">
+    <view class="weui-cells__title">说明</view>
+    <view class="weui-cell shuoming">
+      <textarea bindinput="onInputShuoming" auto-height />
+    </view>
+  </view>
+  <view class="section">
+    <button class="addbutton" bindtap="onAdd">确定</button>
+  </view>
+</scroll-view>

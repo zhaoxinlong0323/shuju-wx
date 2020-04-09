@@ -1,0 +1,18 @@
+<!--miniprogram/pages/planlist/planlist.wxml-->
+<view class="container">
+  <view>
+    <navigator url="../add/add" class="blue">
+      <text>新增事项</text>
+    </navigator>
+  </view>
+  <view class="plantype">
+    <navigator url="../plan/plan?leibie=0"   class="blue">
+      <text>完成计划</text>
+    </navigator>
+  </view>
+  <view class="plantype">
+    <navigator url="../plan/plan?leibie=2"   class="red">
+      <text>积分消费</text>
+    </navigator>
+  </view>
+</view>
